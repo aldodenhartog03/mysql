@@ -1,0 +1,6 @@
+---
+- name: install mysql on vm2
+  apt:
+    name: mysql-server
+    state: present
+  when: "'vm2' in inventory_hostname"
