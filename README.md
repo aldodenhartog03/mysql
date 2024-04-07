@@ -1,1 +1,1 @@
-Install mysql on vm2
+Installs mysql on vm2
